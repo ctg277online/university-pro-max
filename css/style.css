@@ -1,0 +1,81 @@
+body {
+    font-family: 'Raleway', sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif !important;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+.navbar {
+    padding: 2.3125rem 0 !important;
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem !important;
+}
+
+.nav-item {
+    margin-left: 4.84375rem !important;
+}
+
+.nav-link {
+    color: #000 !important;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+.header {
+    background: linear-gradient(90deg, #0F0F0F 0%, rgba(109, 109, 109, 0) 100%), url("../assets/images/header2.png");
+    background-size: cover;
+    height: 495px;
+}
+
+.header-2 {
+    background: url("../assets/images/header3.png");
+    background-size: cover;
+    height: 495px;
+}
+
+.header h1 {
+    font-size: 3.75rem;
+}
+
+.bullets-none {
+    list-style-type: none;
+}
+
+.avatar {
+    background: linear-gradient(180deg, #FFFFFF 0%, #E9E9E9 100%);
+    box-shadow: 6px 10px 14px rgba(69, 69, 69, 0.25);
+}
+.comment {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-right {
+    background-color: #E0E0E0;
+    padding: 25px 15px;
+    border-radius: 25px;
+    border-bottom-right-radius: 0;
+    width: 65%;
+    margin: 15px 0 15px auto;
+}
+
+.comment-left {
+    background-color: #E0E0E0;
+    padding: 25px 15px;
+    border-radius: 25px;
+    border-bottom-left-radius: 0;
+    width: 65%;
+    margin: 15px auto 15px 0;
+}
+
